@@ -1,5 +1,5 @@
 <?php
-$pdo = new  PDO("mysql:host=192.168.11.222; dbname=test", "zhaojianbin", "zhaojb321765");
+
 //$pdo = new  PDO("mysql:host=localhost; dbname=test", "root", "");
 @$tel = $_GET['phone'];
 $sql = "select count(*) from user where tel ='" . $tel . "'";
